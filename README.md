@@ -20,4 +20,4 @@ ACAT is distributed under the Apache License, Version 2.0.
 ##Who It's For
 ACAT is useful for Microsoft Windows developers who are interested in developing assistive technologies to people with ALS or similar disabilities. Also for researchers who are working on new user interfaces, new sensing modalities or word prediction and wanting to explore these innovations in the this community.
 
-Ceci est undébut du logiciel ACAT en français réalisé par les étudiants de l'IUT Mesures Physiques du Mans
+Ceci est un début de traduction du logiciel ACAT en français réalisé par les étudiants de l'IUT Mesures Physiques du Mans
