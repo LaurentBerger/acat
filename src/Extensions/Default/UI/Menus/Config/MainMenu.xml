@@ -12,16 +12,16 @@
     <WidgetAttribute name="ItemText1" label="&#x75;" value="@CmdGoBack" fontsize="18" fontname="ACAT Icon"  bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon2" label="&#xA4;" value="@CmdMuteScreen" fontsize="20" fontname="ACAT Icon"  bold="&usebold;" />
-    <WidgetAttribute name="ItemText2" label="Lock Screen" value="@CmdMuteScreen" fontsize="18" fontname="&buttonFontName;"  bold="&usebold;" />
+    <WidgetAttribute name="ItemText2" label="Vérouillage écran" value="@CmdMuteScreen" fontsize="18" fontname="&buttonFontName;"  bold="&usebold;" />
     
     <WidgetAttribute name="ItemIcon3" label="&#x2B;" value="@CmdSettingsMenu" fontsize="20" fontname="ACAT Icon"  bold="&usebold;" />
-    <WidgetAttribute name="ItemText3" label="Settings" value="@CmdSettingsMenu" fontsize="18" fontname="&buttonFontName;"  bold="&usebold;" />
+    <WidgetAttribute name="ItemText3" label="Options" value="@CmdSettingsMenu" fontsize="18" fontname="&buttonFontName;"  bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon4" label=" " value="@CmdShowAboutBox" fontsize="20" fontname="ACAT Icon"  bold="&usebold;" />
-    <WidgetAttribute name="ItemText4" label="About" value="@CmdShowAboutBox" fontsize="18" fontname="&buttonFontName;"  bold="&usebold;" />
+    <WidgetAttribute name="ItemText4" label="A propos" value="@CmdShowAboutBox" fontsize="18" fontname="&buttonFontName;"  bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon5" label="&#x45;" value="@Exit" fontsize="20" fontname="ACAT Icon"  bold="&usebold;" />
-    <WidgetAttribute name="ItemText5" label="Exit" value="@Exit" fontsize="18" fontname="&buttonFontName;"  bold="&usebold;" />
+    <WidgetAttribute name="ItemText5" label="Quitter" value="@Exit" fontsize="18" fontname="&buttonFontName;"  bold="&usebold;" />
   </WidgetAttributes>
 
   <Layout colorScheme="Dialog">
