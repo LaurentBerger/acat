@@ -12,28 +12,28 @@
     <WidgetAttribute name="ItemText1" label="&#x75;" value="@CmdGoBack" fontsize="18" fontname="ACAT Icon" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon2" label=" " value="@CmdShowGeneralSettings" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText2" label="General" value="@CmdShowGeneralSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText2" label="Géneral" value="@CmdShowGeneralSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon3" label=" " value="@CmdShowScanSettings" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText3" label="Scan" value="@CmdShowScanSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText3" label="Scanner" value="@CmdShowScanSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon4" label=" " value="@CmdShowWordPredictionSettings" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText4" label="Word Prediction" value="@CmdShowWordPredictionSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText4" label="Prediction des mots" value="@CmdShowWordPredictionSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon5" label=" " value="@CmdShowMouseGridSettings" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText5" label="Mouse Scan" value="@CmdShowMouseGridSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText5" label="Scan souris" value="@CmdShowMouseGridSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon6" label=" " value="@CmdShowVoiceSettings" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText6" label="Text-to-Speech" value="@CmdShowVoiceSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText6" label="Système de synthèse vocale" value="@CmdShowVoiceSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
     
     <WidgetAttribute name="ItemIcon7" label=" " value="@CmdShowMuteScreenSettings" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText7" label="Screen Lock" value="@CmdShowMuteScreenSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText7" label="Verrouillage écran" value="@CmdShowMuteScreenSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon8" label=" " value="@CmdShowDesignSettings" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText8" label="Size/Position" value="@CmdShowDesignSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText8" label="Tailles/Positions" value="@CmdShowDesignSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon9" label=" " value="@CmdShowAbbreviationSettings" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText9" label="Abbreviations" value="@CmdShowAbbreviationSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText9" label="Abreviations" value="@CmdShowAbbreviationSettings" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
   </WidgetAttributes>
 
   <Layout colorScheme="Dialog">

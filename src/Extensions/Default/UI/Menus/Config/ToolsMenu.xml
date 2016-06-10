@@ -15,16 +15,16 @@
     <WidgetAttribute name="ItemText2" label="Phrases" value="@CmdPhraseSpeak" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
     
     <WidgetAttribute name="ItemIcon3" label="&#x36;" value="@CmdFileBrowser" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText3" label="File Browser" value="@CmdFileBrowser" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText3" label="Explorateur de fichier" value="@CmdFileBrowser" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon4" label="&#x0178;" value="@CmdSwitchApps" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText4" label="Switch Win" value="@CmdSwitchApps" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText4" label="Changer" value="@CmdSwitchApps" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon5" label="&#x61;" value="@CmdLaunchApp" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText5" label="Launch App" value="@CmdLaunchApp" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText5" label="Lancer app" value="@CmdLaunchApp" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon6" label="&#x35;" value="@CmdNewFileAgent" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
-    <WidgetAttribute name="ItemText6" label="New File" value="@CmdNewFileAgent" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText6" label="Nouveau fichier" value="@CmdNewFileAgent" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
 
     <WidgetAttribute name="ItemIcon7" label="&#x44;" value="@CmdLectureManager" fontsize="20" fontname="ACAT Icon" bold="&usebold;" />
     <WidgetAttribute name="ItemText7" label="Lecture Mgr" value="@CmdLectureManager" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />

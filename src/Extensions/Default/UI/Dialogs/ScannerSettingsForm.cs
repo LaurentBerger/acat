@@ -275,7 +275,7 @@ namespace ACAT.Extensions.Default.UI.Dialogs
         /// </summary>
         private void loadDefaultSettings()
         {
-            if (DialogUtils.Confirm(this, "Restore default settings?"))
+            if (DialogUtils.Confirm(this, "Option par défaut"))
             {
                 // get entire default file and just set those settings that belong to this preferences screen
                 initWidgetSettings(ACATPreferences.LoadDefaultSettings());
@@ -292,7 +292,7 @@ namespace ACAT.Extensions.Default.UI.Dialogs
 
             if (_isDirty)
             {
-                if (!DialogUtils.Confirm(this, "Changes not saved. Quit?"))
+                if (!DialogUtils.Confirm(this, "Changement non sauvé, Quitter ?"))
                 {
                     quit = false;
                 }
@@ -309,7 +309,7 @@ namespace ACAT.Extensions.Default.UI.Dialogs
         /// </summary>
         private void saveSettingsAndQuit()
         {
-            if (_isDirty && DialogUtils.Confirm(this, "Save settings?"))
+            if (_isDirty && DialogUtils.Confirm(this, "Sauver options?"))
             {
                 getSettingsFromUI().Save();
 
@@ -371,6 +371,16 @@ namespace ACAT.Extensions.Default.UI.Dialogs
         private void widget_EvtValueChanged(object sender, WidgetEventArgs e)
         {
             _isDirty = true;
+        }
+
+        private void lblRestoreDefaults_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void boxScanBottom_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

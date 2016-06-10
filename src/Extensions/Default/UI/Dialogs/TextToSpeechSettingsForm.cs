@@ -493,5 +493,10 @@ namespace ACAT.Extensions.Default.UI.Dialogs
         {
             _isDirty = true;
         }
+
+        private void lblTest_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

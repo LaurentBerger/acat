@@ -12,10 +12,10 @@
     <WidgetAttribute name="ItemText1" label="&#x75;" value="@CancelFileOperation" fontsize="18" fontname="ACAT Icon" mouseClickActuate="true" bold="&usebold;"/>
 
     <WidgetAttribute name="ItemIcon2" label="&#x3F;" value="@OpenFile" fontsize="20" fontname="ACAT Icon" mouseClickActuate="true" bold="&usebold;"/>
-    <WidgetAttribute name="ItemText2" label="Open File" value="@OpenFile" fontsize="18" fontname="Arial" mouseClickActuate="true" bold="&usebold;"/>
+    <WidgetAttribute name="ItemText2" label="Ouvrir fichier" value="@OpenFile" fontsize="18" fontname="Arial" mouseClickActuate="true" bold="&usebold;"/>
 
     <WidgetAttribute name="ItemIcon3" label="&#x25;" value="@DeleteFile" fontsize="20" fontname="ACAT Icon" mouseClickActuate="true" bold="&usebold;"/>
-    <WidgetAttribute name="ItemText3" label="Delete File" value="@DeleteFile" fontsize="18" fontname="Arial" mouseClickActuate="true" bold="&usebold;"/>
+    <WidgetAttribute name="ItemText3" label="Supprimer fichier" value="@DeleteFile" fontsize="18" fontname="Arial" mouseClickActuate="true" bold="&usebold;"/>
   </WidgetAttributes>
 
   <Layout>

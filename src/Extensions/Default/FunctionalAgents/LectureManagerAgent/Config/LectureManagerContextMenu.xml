@@ -10,11 +10,11 @@
     <WidgetAttribute name="ItemIcon1" label=" " value="@CmdGoBack" fontsize="20" fontname="ACAT Icon"  bold="&usebold;"/>
     <WidgetAttribute name="ItemText1" label="&#x75;" value="@CmdGoBack" fontsize="18" fontname="ACAT Icon"  bold="&usebold;"/>
     <WidgetAttribute name="ItemIcon2" label="e" value="@OpenFile" fontsize="20" fontname="ACAT Icon"  bold="&usebold;"/>
-    <WidgetAttribute name="ItemText2" label="Open" value="@OpenFile" fontsize="18" fontname="Arial"  bold="&usebold;"/>
+    <WidgetAttribute name="ItemText2" label="Ouvrir" value="@OpenFile" fontsize="18" fontname="Arial"  bold="&usebold;"/>
     <WidgetAttribute name="ItemIcon3" label="F" value="@SpeakMenu" fontsize="20" fontname="ACAT Icon"  bold="&usebold;"/>
-    <WidgetAttribute name="ItemText3" label="Speech Menu" value="@SpeakMenu" fontsize="18" fontname="Arial"  bold="&usebold;"/>
+    <WidgetAttribute name="ItemText3" label="Menu expression" value="@SpeakMenu" fontsize="18" fontname="Arial"  bold="&usebold;"/>
     <WidgetAttribute name="ItemIcon4" label="l" value="@CloseLectureManager" fontsize="20" fontname="ACAT Icon"  bold="&usebold;"/>
-    <WidgetAttribute name="ItemText4" label="Close" value="@CloseLectureManager" fontsize="18" fontname="Arial"  bold="&usebold;"/>
+    <WidgetAttribute name="ItemText4" label="Fermer" value="@CloseLectureManager" fontsize="18" fontname="Arial"  bold="&usebold;"/>
 
   </WidgetAttributes>
 

@@ -50,9 +50,10 @@
             // lblVolumeText
             // 
             this.lblVolumeText.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVolumeText.Location = new System.Drawing.Point(263, 122);
+            this.lblVolumeText.Location = new System.Drawing.Point(526, 235);
+            this.lblVolumeText.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblVolumeText.Name = "lblVolumeText";
-            this.lblVolumeText.Size = new System.Drawing.Size(79, 25);
+            this.lblVolumeText.Size = new System.Drawing.Size(158, 48);
             this.lblVolumeText.TabIndex = 158;
             this.lblVolumeText.Text = "(1 to 15)";
             this.lblVolumeText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -60,9 +61,10 @@
             // lblRateText
             // 
             this.lblRateText.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRateText.Location = new System.Drawing.Point(263, 178);
+            this.lblRateText.Location = new System.Drawing.Point(526, 342);
+            this.lblRateText.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblRateText.Name = "lblRateText";
-            this.lblRateText.Size = new System.Drawing.Size(79, 25);
+            this.lblRateText.Size = new System.Drawing.Size(158, 48);
             this.lblRateText.TabIndex = 157;
             this.lblRateText.Text = "(50 to 250)";
             this.lblRateText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -70,9 +72,10 @@
             // lblPitchText
             // 
             this.lblPitchText.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPitchText.Location = new System.Drawing.Point(263, 236);
+            this.lblPitchText.Location = new System.Drawing.Point(526, 454);
+            this.lblPitchText.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblPitchText.Name = "lblPitchText";
-            this.lblPitchText.Size = new System.Drawing.Size(79, 25);
+            this.lblPitchText.Size = new System.Drawing.Size(158, 48);
             this.lblPitchText.TabIndex = 156;
             this.lblPitchText.Text = "(50 to 200)";
             this.lblPitchText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -80,20 +83,23 @@
             // lblTest
             // 
             this.lblTest.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTest.Location = new System.Drawing.Point(157, 302);
+            this.lblTest.Location = new System.Drawing.Point(314, 581);
+            this.lblTest.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.lblTest.Name = "lblTest";
-            this.lblTest.Size = new System.Drawing.Size(113, 47);
+            this.lblTest.Size = new System.Drawing.Size(226, 90);
             this.lblTest.TabIndex = 6;
             this.lblTest.TabStop = false;
             this.lblTest.Text = " Test";
             this.lblTest.UseVisualStyleBackColor = true;
+            this.lblTest.Click += new System.EventHandler(this.lblTest_Click);
             // 
             // lblRestoreDefaults
             // 
             this.lblRestoreDefaults.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRestoreDefaults.Location = new System.Drawing.Point(283, 364);
+            this.lblRestoreDefaults.Location = new System.Drawing.Point(566, 700);
+            this.lblRestoreDefaults.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.lblRestoreDefaults.Name = "lblRestoreDefaults";
-            this.lblRestoreDefaults.Size = new System.Drawing.Size(113, 47);
+            this.lblRestoreDefaults.Size = new System.Drawing.Size(226, 90);
             this.lblRestoreDefaults.TabIndex = 2;
             this.lblRestoreDefaults.TabStop = false;
             this.lblRestoreDefaults.Text = "Defaults";
@@ -102,9 +108,10 @@
             // lblBack
             // 
             this.lblBack.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBack.Location = new System.Drawing.Point(157, 364);
+            this.lblBack.Location = new System.Drawing.Point(314, 700);
+            this.lblBack.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.lblBack.Name = "lblBack";
-            this.lblBack.Size = new System.Drawing.Size(113, 47);
+            this.lblBack.Size = new System.Drawing.Size(226, 90);
             this.lblBack.TabIndex = 1;
             this.lblBack.TabStop = false;
             this.lblBack.Text = "Cancel";
@@ -113,9 +120,10 @@
             // lblOK
             // 
             this.lblOK.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOK.Location = new System.Drawing.Point(31, 364);
+            this.lblOK.Location = new System.Drawing.Point(62, 700);
+            this.lblOK.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.lblOK.Name = "lblOK";
-            this.lblOK.Size = new System.Drawing.Size(113, 47);
+            this.lblOK.Size = new System.Drawing.Size(226, 90);
             this.lblOK.TabIndex = 0;
             this.lblOK.TabStop = false;
             this.lblOK.Text = "OK";
@@ -124,9 +132,10 @@
             // lblPitch
             // 
             this.lblPitch.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPitch.Location = new System.Drawing.Point(84, 237);
+            this.lblPitch.Location = new System.Drawing.Point(168, 456);
+            this.lblPitch.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblPitch.Name = "lblPitch";
-            this.lblPitch.Size = new System.Drawing.Size(100, 24);
+            this.lblPitch.Size = new System.Drawing.Size(200, 46);
             this.lblPitch.TabIndex = 155;
             this.lblPitch.Text = "Pitch";
             this.lblPitch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -134,17 +143,19 @@
             // tbPitch
             // 
             this.tbPitch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPitch.Location = new System.Drawing.Point(190, 241);
+            this.tbPitch.Location = new System.Drawing.Point(380, 463);
+            this.tbPitch.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbPitch.Name = "tbPitch";
-            this.tbPitch.Size = new System.Drawing.Size(55, 20);
+            this.tbPitch.Size = new System.Drawing.Size(106, 32);
             this.tbPitch.TabIndex = 5;
             // 
             // lblSpeed
             // 
             this.lblSpeed.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSpeed.Location = new System.Drawing.Point(84, 179);
+            this.lblSpeed.Location = new System.Drawing.Point(168, 344);
+            this.lblSpeed.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblSpeed.Name = "lblSpeed";
-            this.lblSpeed.Size = new System.Drawing.Size(100, 24);
+            this.lblSpeed.Size = new System.Drawing.Size(200, 46);
             this.lblSpeed.TabIndex = 154;
             this.lblSpeed.Text = "Rate";
             this.lblSpeed.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -152,9 +163,10 @@
             // lblVolume
             // 
             this.lblVolume.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVolume.Location = new System.Drawing.Point(84, 123);
+            this.lblVolume.Location = new System.Drawing.Point(168, 237);
+            this.lblVolume.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblVolume.Name = "lblVolume";
-            this.lblVolume.Size = new System.Drawing.Size(100, 24);
+            this.lblVolume.Size = new System.Drawing.Size(200, 46);
             this.lblVolume.TabIndex = 153;
             this.lblVolume.Text = "Volume";
             this.lblVolume.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -162,53 +174,59 @@
             // tbRate
             // 
             this.tbRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbRate.Location = new System.Drawing.Point(190, 183);
+            this.tbRate.Location = new System.Drawing.Point(380, 352);
+            this.tbRate.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbRate.Name = "tbRate";
-            this.tbRate.Size = new System.Drawing.Size(55, 20);
+            this.tbRate.Size = new System.Drawing.Size(106, 32);
             this.tbRate.TabIndex = 4;
             // 
             // tbVolume
             // 
             this.tbVolume.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbVolume.Location = new System.Drawing.Point(190, 127);
+            this.tbVolume.Location = new System.Drawing.Point(380, 244);
+            this.tbVolume.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbVolume.Name = "tbVolume";
-            this.tbVolume.Size = new System.Drawing.Size(55, 20);
+            this.tbVolume.Size = new System.Drawing.Size(106, 32);
             this.tbVolume.TabIndex = 3;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.lblTTSEngineName);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(13, 25);
+            this.groupBox1.Location = new System.Drawing.Point(26, 48);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(402, 425);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Size = new System.Drawing.Size(804, 817);
             this.groupBox1.TabIndex = 160;
             this.groupBox1.TabStop = false;
             // 
             // lblTTSEngineName
             // 
             this.lblTTSEngineName.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTTSEngineName.Location = new System.Drawing.Point(26, 37);
+            this.lblTTSEngineName.Location = new System.Drawing.Point(52, 71);
+            this.lblTTSEngineName.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblTTSEngineName.Name = "lblTTSEngineName";
-            this.lblTTSEngineName.Size = new System.Drawing.Size(350, 31);
+            this.lblTTSEngineName.Size = new System.Drawing.Size(700, 60);
             this.lblTTSEngineName.TabIndex = 162;
             this.lblTTSEngineName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, -1);
+            this.label1.Location = new System.Drawing.Point(28, -2);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 24);
+            this.label1.Size = new System.Drawing.Size(486, 46);
             this.label1.TabIndex = 161;
             this.label1.Text = "Text-to-Speech Settings";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // TextToSpeechSettingsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 462);
+            this.ClientSize = new System.Drawing.Size(854, 888);
             this.Controls.Add(this.lblVolumeText);
             this.Controls.Add(this.lblRateText);
             this.Controls.Add(this.lblPitchText);
@@ -224,6 +242,7 @@
             this.Controls.Add(this.tbVolume);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "TextToSpeechSettingsForm";
             this.Text = "ACAT";
             this.groupBox1.ResumeLayout(false);

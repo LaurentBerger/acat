@@ -3,8 +3,8 @@
 <ACAT>
 	<WidgetAttributes>
     <WidgetAttribute name="lblOK" label="OK" value="valButtonSave"  fontsize="14" bold="false"/>
-    <WidgetAttribute name="lblBack" label="Cancel" value="valButtonBack"  fontsize="14"  bold="false"/>
-    <WidgetAttribute name="lblRestoreDefaults" label="Defaults" value="valButtonRestoreDefaults" fontsize="14"  bold="false" />
+    <WidgetAttribute name="lblBack" label="Annuler" value="valButtonBack"  fontsize="14"  bold="false"/>
+    <WidgetAttribute name="lblRestoreDefaults" label="Defaut" value="valButtonRestoreDefaults" fontsize="14"  bold="false" />
     
     <WidgetAttribute name="ltbRectangleSpeedLess" label="O" value="valButtonVerticalSpeedLess" fontname="ACAT Icon" bold="false" fontsize="36" />
     <WidgetAttribute name="ltbRectangleSpeedMore" label="N" value="valButtonVerticalSpeedMore" fontname="ACAT Icon" bold="false" fontsize="36" />

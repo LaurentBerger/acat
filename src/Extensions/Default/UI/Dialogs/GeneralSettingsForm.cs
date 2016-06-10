@@ -364,5 +364,10 @@ namespace ACAT.Extensions.Default.UI.Dialogs
         {
             _isDirty = true;
         }
+
+        private void lblExpandAbbreviationsOnSeparator_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

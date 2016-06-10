@@ -326,5 +326,15 @@ namespace ACAT.Extensions.Default.UI.Dialogs
                 Close();
             }
         }
+
+        private void labelCaption_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void YesNoDialogForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -8,9 +8,9 @@
   <WidgetAttributes>
     <WidgetAttribute name="Prompt" label=" " value=" " fontsize="18" fontname="&buttonFontName;" mouseClickActuate="false" bold="&usebold;" />
     <WidgetAttribute name="ItemText1" label=" " value=" " fontsize="18" fontname="&buttonFontName;"  mouseClickActuate="false" bold="&usebold;" />
-    <WidgetAttribute name="ItemText2" label="No" value="@CmdNo" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText2" label="Non" value="@CmdNo" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
     <WidgetAttribute name="ItemText3" label=" " value=" " fontsize="18" fontname="&buttonFontName;"  mouseClickActuate="false" bold="&usebold;" />
-    <WidgetAttribute name="ItemText4" label="Yes" value="@CmdYes" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
+    <WidgetAttribute name="ItemText4" label="Oui" value="@CmdYes" fontsize="18" fontname="&buttonFontName;" bold="&usebold;" />
   </WidgetAttributes>
 
   <Layout>

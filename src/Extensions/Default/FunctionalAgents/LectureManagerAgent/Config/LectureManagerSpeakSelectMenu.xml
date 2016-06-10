@@ -12,13 +12,13 @@
     <WidgetAttribute name="ItemText1" label="&#x75;" value="@CmdGoBack" fontsize="18" fontname="ACAT Icon"  bold="&usebold;"/>
 
     <WidgetAttribute name="ItemIcon2" label="F" value="@SpeechModeParagraph" fontsize="20" fontname="ACAT Icon"  bold="&usebold;"/>
-    <WidgetAttribute name="ItemText2" label="Paragraph" value="@SpeechModeParagraph" fontsize="18" fontname="Arial"  bold="&usebold;"/>
+    <WidgetAttribute name="ItemText2" label="Paragraphe" value="@SpeechModeParagraph" fontsize="18" fontname="Arial"  bold="&usebold;"/>
 
     <WidgetAttribute name="ItemIcon3" label="F" value="@SpeechModeSentence" fontsize="20" fontname="ACAT Icon"  bold="&usebold;"/>
-    <WidgetAttribute name="ItemText3" label="Sentence" value="@SpeechModeSentence" fontsize="18" fontname="Arial"  bold="&usebold;"/>
+    <WidgetAttribute name="ItemText3" label="Phrase" value="@SpeechModeSentence" fontsize="18" fontname="Arial"  bold="&usebold;"/>
 
     <WidgetAttribute name="ItemIcon4" label="F" value="@SpeakAll" fontsize="20" fontname="ACAT Icon"  bold="&usebold;"/>
-    <WidgetAttribute name="ItemText4" label="All" value="@SpeakAll" fontsize="18" fontname="Arial"  bold="&usebold;"/>
+    <WidgetAttribute name="ItemText4" label="Tout" value="@SpeakAll" fontsize="18" fontname="Arial"  bold="&usebold;"/>
   </WidgetAttributes>
 
   <Layout>

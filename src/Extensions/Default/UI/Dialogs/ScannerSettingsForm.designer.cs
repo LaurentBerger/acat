@@ -127,13 +127,15 @@
             // lblRestoreDefaults
             // 
             this.lblRestoreDefaults.BackColor = System.Drawing.SystemColors.Control;
-            this.lblRestoreDefaults.Location = new System.Drawing.Point(336, 667);
-            this.lblRestoreDefaults.Name = "lblRestoreDefaults";
-            this.lblRestoreDefaults.Size = new System.Drawing.Size(114, 47);
+            this.lblRestoreDefaults.Location = new System.Drawing.Point(672, 1283);
+            this.lblRestoreDefaults.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.lblRestoreDefaults.Name = "Mettre par defaut";
+            this.lblRestoreDefaults.Size = new System.Drawing.Size(228, 90);
             this.lblRestoreDefaults.TabIndex = 139;
             this.lblRestoreDefaults.TabStop = false;
-            this.lblRestoreDefaults.Text = "Defaults";
+            this.lblRestoreDefaults.Text = "Defaut";
             this.lblRestoreDefaults.UseVisualStyleBackColor = false;
+            this.lblRestoreDefaults.Click += new System.EventHandler(this.lblRestoreDefaults_Click);
             // 
             // lblScanTimes
             // 
@@ -141,9 +143,10 @@
             this.lblScanTimes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblScanTimes.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScanTimes.ForeColor = System.Drawing.Color.Black;
-            this.lblScanTimes.Location = new System.Drawing.Point(37, 276);
+            this.lblScanTimes.Location = new System.Drawing.Point(74, 531);
+            this.lblScanTimes.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblScanTimes.Name = "lblScanTimes";
-            this.lblScanTimes.Size = new System.Drawing.Size(192, 28);
+            this.lblScanTimes.Size = new System.Drawing.Size(382, 52);
             this.lblScanTimes.TabIndex = 132;
             this.lblScanTimes.Text = "Timings (in msecs)";
             // 
@@ -153,48 +156,53 @@
             this.lblNumberofTimes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblNumberofTimes.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumberofTimes.ForeColor = System.Drawing.Color.Black;
-            this.lblNumberofTimes.Location = new System.Drawing.Point(37, 43);
+            this.lblNumberofTimes.Location = new System.Drawing.Point(74, 83);
+            this.lblNumberofTimes.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblNumberofTimes.Name = "lblNumberofTimes";
-            this.lblNumberofTimes.Size = new System.Drawing.Size(165, 28);
+            this.lblNumberofTimes.Size = new System.Drawing.Size(328, 52);
             this.lblNumberofTimes.TabIndex = 133;
             this.lblNumberofTimes.Text = "Scan Iterations";
             // 
             // lblSelectingClick
             // 
             this.lblSelectingClick.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSelectingClick.Location = new System.Drawing.Point(77, 616);
+            this.lblSelectingClick.Location = new System.Drawing.Point(154, 1185);
+            this.lblSelectingClick.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblSelectingClick.Name = "lblSelectingClick";
-            this.lblSelectingClick.Size = new System.Drawing.Size(173, 29);
+            this.lblSelectingClick.Size = new System.Drawing.Size(346, 56);
             this.lblSelectingClick.TabIndex = 131;
-            this.lblSelectingClick.Text = "Beep on Select";
+            this.lblSelectingClick.Text = "Son touche";
             this.lblSelectingClick.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblBack
             // 
             this.lblBack.BackColor = System.Drawing.SystemColors.Control;
-            this.lblBack.Location = new System.Drawing.Point(212, 667);
+            this.lblBack.Location = new System.Drawing.Point(424, 1283);
+            this.lblBack.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.lblBack.Name = "lblBack";
-            this.lblBack.Size = new System.Drawing.Size(110, 47);
+            this.lblBack.Size = new System.Drawing.Size(220, 90);
             this.lblBack.TabIndex = 138;
             this.lblBack.TabStop = false;
-            this.lblBack.Text = "Cancel";
+            this.lblBack.Text = "Annuler";
             this.lblBack.UseVisualStyleBackColor = false;
             // 
             // pbSelectingClick
             // 
             this.pbSelectingClick.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pbSelectingClick.Location = new System.Drawing.Point(42, 619);
+            this.pbSelectingClick.Location = new System.Drawing.Point(84, 1190);
+            this.pbSelectingClick.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.pbSelectingClick.Name = "pbSelectingClick";
-            this.pbSelectingClick.Size = new System.Drawing.Size(28, 29);
+            this.pbSelectingClick.Size = new System.Drawing.Size(56, 56);
             this.pbSelectingClick.TabIndex = 134;
             this.pbSelectingClick.Text = "N";
             // 
             // lblOK
             // 
             this.lblOK.BackColor = System.Drawing.SystemColors.Control;
-            this.lblOK.Location = new System.Drawing.Point(88, 667);
+            this.lblOK.Location = new System.Drawing.Point(176, 1283);
+            this.lblOK.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.lblOK.Name = "lblOK";
-            this.lblOK.Size = new System.Drawing.Size(110, 47);
+            this.lblOK.Size = new System.Drawing.Size(220, 90);
             this.lblOK.TabIndex = 137;
             this.lblOK.TabStop = false;
             this.lblOK.Text = "OK";
@@ -231,18 +239,20 @@
             this.boxScanTop.Controls.Add(this.lblEveryColumnLess);
             this.boxScanTop.Controls.Add(this.tbEveryColumn);
             this.boxScanTop.Controls.Add(this.tbEveryHalf);
-            this.boxScanTop.Location = new System.Drawing.Point(33, 71);
+            this.boxScanTop.Location = new System.Drawing.Point(66, 137);
+            this.boxScanTop.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.boxScanTop.Name = "boxScanTop";
-            this.boxScanTop.Size = new System.Drawing.Size(475, 196);
+            this.boxScanTop.Size = new System.Drawing.Size(948, 375);
             this.boxScanTop.TabIndex = 135;
             // 
             // lblWordPredictionMore
             // 
             this.lblWordPredictionMore.BackColor = System.Drawing.Color.Transparent;
             this.lblWordPredictionMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWordPredictionMore.Location = new System.Drawing.Point(368, 147);
+            this.lblWordPredictionMore.Location = new System.Drawing.Point(736, 283);
+            this.lblWordPredictionMore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblWordPredictionMore.Name = "lblWordPredictionMore";
-            this.lblWordPredictionMore.Size = new System.Drawing.Size(25, 25);
+            this.lblWordPredictionMore.Size = new System.Drawing.Size(50, 48);
             this.lblWordPredictionMore.TabIndex = 67;
             this.lblWordPredictionMore.Text = ">";
             this.lblWordPredictionMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -250,9 +260,10 @@
             // smaxWordPrediction
             // 
             this.smaxWordPrediction.AutoSize = true;
-            this.smaxWordPrediction.Location = new System.Drawing.Point(373, 173);
+            this.smaxWordPrediction.Location = new System.Drawing.Point(746, 333);
+            this.smaxWordPrediction.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.smaxWordPrediction.Name = "smaxWordPrediction";
-            this.smaxWordPrediction.Size = new System.Drawing.Size(19, 13);
+            this.smaxWordPrediction.Size = new System.Drawing.Size(36, 25);
             this.smaxWordPrediction.TabIndex = 63;
             this.smaxWordPrediction.Text = "10";
             this.smaxWordPrediction.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -260,9 +271,10 @@
             // sminWordPrediction
             // 
             this.sminWordPrediction.AutoSize = true;
-            this.sminWordPrediction.Location = new System.Drawing.Point(246, 175);
+            this.sminWordPrediction.Location = new System.Drawing.Point(492, 337);
+            this.sminWordPrediction.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.sminWordPrediction.Name = "sminWordPrediction";
-            this.sminWordPrediction.Size = new System.Drawing.Size(13, 13);
+            this.sminWordPrediction.Size = new System.Drawing.Size(24, 25);
             this.sminWordPrediction.TabIndex = 62;
             this.sminWordPrediction.Text = "0";
             this.sminWordPrediction.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -270,19 +282,21 @@
             // svalWordPrediction
             // 
             this.svalWordPrediction.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalWordPrediction.Location = new System.Drawing.Point(399, 151);
+            this.svalWordPrediction.Location = new System.Drawing.Point(798, 290);
+            this.svalWordPrediction.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.svalWordPrediction.Name = "svalWordPrediction";
             this.svalWordPrediction.ReadOnly = true;
-            this.svalWordPrediction.Size = new System.Drawing.Size(55, 20);
+            this.svalWordPrediction.Size = new System.Drawing.Size(106, 32);
             this.svalWordPrediction.TabIndex = 65;
             this.svalWordPrediction.TabStop = false;
             // 
             // lblWordPrediction
             // 
             this.lblWordPrediction.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWordPrediction.Location = new System.Drawing.Point(6, 149);
+            this.lblWordPrediction.Location = new System.Drawing.Point(12, 287);
+            this.lblWordPrediction.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblWordPrediction.Name = "lblWordPrediction";
-            this.lblWordPrediction.Size = new System.Drawing.Size(162, 26);
+            this.lblWordPrediction.Size = new System.Drawing.Size(324, 50);
             this.lblWordPrediction.TabIndex = 61;
             this.lblWordPrediction.Text = "Word Prediction";
             this.lblWordPrediction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -291,18 +305,20 @@
             // 
             this.lblWordPredictionLess.BackColor = System.Drawing.Color.Transparent;
             this.lblWordPredictionLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWordPredictionLess.Location = new System.Drawing.Point(243, 149);
+            this.lblWordPredictionLess.Location = new System.Drawing.Point(486, 287);
+            this.lblWordPredictionLess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblWordPredictionLess.Name = "lblWordPredictionLess";
-            this.lblWordPredictionLess.Size = new System.Drawing.Size(25, 25);
+            this.lblWordPredictionLess.Size = new System.Drawing.Size(50, 48);
             this.lblWordPredictionLess.TabIndex = 66;
             this.lblWordPredictionLess.Text = "<";
             this.lblWordPredictionLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbWordPrediction
             // 
-            this.tbWordPrediction.Location = new System.Drawing.Point(264, 150);
+            this.tbWordPrediction.Location = new System.Drawing.Point(530, 283);
+            this.tbWordPrediction.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbWordPrediction.Name = "tbWordPrediction";
-            this.tbWordPrediction.Size = new System.Drawing.Size(110, 45);
+            this.tbWordPrediction.Size = new System.Drawing.Size(220, 90);
             this.tbWordPrediction.TabIndex = 64;
             this.tbWordPrediction.TabStop = false;
             // 
@@ -310,9 +326,10 @@
             // 
             this.lblEveryColumnMore.BackColor = System.Drawing.Color.Transparent;
             this.lblEveryColumnMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryColumnMore.Location = new System.Drawing.Point(367, 101);
+            this.lblEveryColumnMore.Location = new System.Drawing.Point(734, 194);
+            this.lblEveryColumnMore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblEveryColumnMore.Name = "lblEveryColumnMore";
-            this.lblEveryColumnMore.Size = new System.Drawing.Size(25, 25);
+            this.lblEveryColumnMore.Size = new System.Drawing.Size(50, 48);
             this.lblEveryColumnMore.TabIndex = 60;
             this.lblEveryColumnMore.Text = ">";
             this.lblEveryColumnMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -321,9 +338,10 @@
             // 
             this.lblEveryRowLess.BackColor = System.Drawing.Color.Transparent;
             this.lblEveryRowLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryRowLess.Location = new System.Drawing.Point(243, 58);
+            this.lblEveryRowLess.Location = new System.Drawing.Point(486, 112);
+            this.lblEveryRowLess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblEveryRowLess.Name = "lblEveryRowLess";
-            this.lblEveryRowLess.Size = new System.Drawing.Size(25, 25);
+            this.lblEveryRowLess.Size = new System.Drawing.Size(50, 48);
             this.lblEveryRowLess.TabIndex = 57;
             this.lblEveryRowLess.Text = "<";
             this.lblEveryRowLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -332,9 +350,10 @@
             // 
             this.lblEveryRowMore.BackColor = System.Drawing.Color.Transparent;
             this.lblEveryRowMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryRowMore.Location = new System.Drawing.Point(368, 58);
+            this.lblEveryRowMore.Location = new System.Drawing.Point(736, 112);
+            this.lblEveryRowMore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblEveryRowMore.Name = "lblEveryRowMore";
-            this.lblEveryRowMore.Size = new System.Drawing.Size(25, 25);
+            this.lblEveryRowMore.Size = new System.Drawing.Size(50, 48);
             this.lblEveryRowMore.TabIndex = 58;
             this.lblEveryRowMore.Text = ">";
             this.lblEveryRowMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -343,9 +362,10 @@
             // 
             this.lblEveryHalfLess.BackColor = System.Drawing.Color.Transparent;
             this.lblEveryHalfLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryHalfLess.Location = new System.Drawing.Point(244, 13);
+            this.lblEveryHalfLess.Location = new System.Drawing.Point(488, 25);
+            this.lblEveryHalfLess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblEveryHalfLess.Name = "lblEveryHalfLess";
-            this.lblEveryHalfLess.Size = new System.Drawing.Size(25, 25);
+            this.lblEveryHalfLess.Size = new System.Drawing.Size(50, 48);
             this.lblEveryHalfLess.TabIndex = 55;
             this.lblEveryHalfLess.Text = "<";
             this.lblEveryHalfLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -353,9 +373,10 @@
             // sminEveryHalf
             // 
             this.sminEveryHalf.AutoSize = true;
-            this.sminEveryHalf.Location = new System.Drawing.Point(245, 37);
+            this.sminEveryHalf.Location = new System.Drawing.Point(490, 71);
+            this.sminEveryHalf.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.sminEveryHalf.Name = "sminEveryHalf";
-            this.sminEveryHalf.Size = new System.Drawing.Size(13, 13);
+            this.sminEveryHalf.Size = new System.Drawing.Size(24, 25);
             this.sminEveryHalf.TabIndex = 20;
             this.sminEveryHalf.Text = "0";
             this.sminEveryHalf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -363,9 +384,10 @@
             // smaxEveryColumn
             // 
             this.smaxEveryColumn.AutoSize = true;
-            this.smaxEveryColumn.Location = new System.Drawing.Point(372, 127);
+            this.smaxEveryColumn.Location = new System.Drawing.Point(744, 244);
+            this.smaxEveryColumn.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.smaxEveryColumn.Name = "smaxEveryColumn";
-            this.smaxEveryColumn.Size = new System.Drawing.Size(19, 13);
+            this.smaxEveryColumn.Size = new System.Drawing.Size(36, 25);
             this.smaxEveryColumn.TabIndex = 25;
             this.smaxEveryColumn.Text = "10";
             this.smaxEveryColumn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -373,9 +395,10 @@
             // sminEveryColumn
             // 
             this.sminEveryColumn.AutoSize = true;
-            this.sminEveryColumn.Location = new System.Drawing.Point(245, 129);
+            this.sminEveryColumn.Location = new System.Drawing.Point(490, 248);
+            this.sminEveryColumn.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.sminEveryColumn.Name = "sminEveryColumn";
-            this.sminEveryColumn.Size = new System.Drawing.Size(13, 13);
+            this.sminEveryColumn.Size = new System.Drawing.Size(24, 25);
             this.sminEveryColumn.TabIndex = 24;
             this.sminEveryColumn.Text = "0";
             this.sminEveryColumn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -383,9 +406,10 @@
             // smaxEveryRow
             // 
             this.smaxEveryRow.AutoSize = true;
-            this.smaxEveryRow.Location = new System.Drawing.Point(373, 82);
+            this.smaxEveryRow.Location = new System.Drawing.Point(746, 158);
+            this.smaxEveryRow.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.smaxEveryRow.Name = "smaxEveryRow";
-            this.smaxEveryRow.Size = new System.Drawing.Size(19, 13);
+            this.smaxEveryRow.Size = new System.Drawing.Size(36, 25);
             this.smaxEveryRow.TabIndex = 23;
             this.smaxEveryRow.Text = "10";
             this.smaxEveryRow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -393,9 +417,10 @@
             // sminEveryRow
             // 
             this.sminEveryRow.AutoSize = true;
-            this.sminEveryRow.Location = new System.Drawing.Point(245, 83);
+            this.sminEveryRow.Location = new System.Drawing.Point(490, 160);
+            this.sminEveryRow.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.sminEveryRow.Name = "sminEveryRow";
-            this.sminEveryRow.Size = new System.Drawing.Size(13, 13);
+            this.sminEveryRow.Size = new System.Drawing.Size(24, 25);
             this.sminEveryRow.TabIndex = 22;
             this.sminEveryRow.Text = "0";
             this.sminEveryRow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -403,9 +428,10 @@
             // smaxEveryHalf
             // 
             this.smaxEveryHalf.AutoSize = true;
-            this.smaxEveryHalf.Location = new System.Drawing.Point(374, 36);
+            this.smaxEveryHalf.Location = new System.Drawing.Point(748, 69);
+            this.smaxEveryHalf.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.smaxEveryHalf.Name = "smaxEveryHalf";
-            this.smaxEveryHalf.Size = new System.Drawing.Size(19, 13);
+            this.smaxEveryHalf.Size = new System.Drawing.Size(36, 25);
             this.smaxEveryHalf.TabIndex = 21;
             this.smaxEveryHalf.Text = "10";
             this.smaxEveryHalf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -413,39 +439,43 @@
             // svalEveryHalf
             // 
             this.svalEveryHalf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalEveryHalf.Location = new System.Drawing.Point(398, 15);
+            this.svalEveryHalf.Location = new System.Drawing.Point(796, 29);
+            this.svalEveryHalf.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.svalEveryHalf.Name = "svalEveryHalf";
             this.svalEveryHalf.ReadOnly = true;
-            this.svalEveryHalf.Size = new System.Drawing.Size(55, 20);
+            this.svalEveryHalf.Size = new System.Drawing.Size(106, 32);
             this.svalEveryHalf.TabIndex = 41;
             this.svalEveryHalf.TabStop = false;
             // 
             // svalEveryRow
             // 
             this.svalEveryRow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalEveryRow.Location = new System.Drawing.Point(398, 59);
+            this.svalEveryRow.Location = new System.Drawing.Point(796, 113);
+            this.svalEveryRow.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.svalEveryRow.Name = "svalEveryRow";
             this.svalEveryRow.ReadOnly = true;
-            this.svalEveryRow.Size = new System.Drawing.Size(55, 20);
+            this.svalEveryRow.Size = new System.Drawing.Size(106, 32);
             this.svalEveryRow.TabIndex = 42;
             this.svalEveryRow.TabStop = false;
             // 
             // svalEveryColumn
             // 
             this.svalEveryColumn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalEveryColumn.Location = new System.Drawing.Point(398, 105);
+            this.svalEveryColumn.Location = new System.Drawing.Point(796, 202);
+            this.svalEveryColumn.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.svalEveryColumn.Name = "svalEveryColumn";
             this.svalEveryColumn.ReadOnly = true;
-            this.svalEveryColumn.Size = new System.Drawing.Size(55, 20);
+            this.svalEveryColumn.Size = new System.Drawing.Size(106, 32);
             this.svalEveryColumn.TabIndex = 43;
             this.svalEveryColumn.TabStop = false;
             // 
             // lblEveryColumn
             // 
             this.lblEveryColumn.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryColumn.Location = new System.Drawing.Point(6, 103);
+            this.lblEveryColumn.Location = new System.Drawing.Point(12, 198);
+            this.lblEveryColumn.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblEveryColumn.Name = "lblEveryColumn";
-            this.lblEveryColumn.Size = new System.Drawing.Size(141, 26);
+            this.lblEveryColumn.Size = new System.Drawing.Size(282, 50);
             this.lblEveryColumn.TabIndex = 18;
             this.lblEveryColumn.Text = "Columns";
             this.lblEveryColumn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -453,9 +483,10 @@
             // lblEveryHalf
             // 
             this.lblEveryHalf.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryHalf.Location = new System.Drawing.Point(6, 13);
+            this.lblEveryHalf.Location = new System.Drawing.Point(12, 25);
+            this.lblEveryHalf.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblEveryHalf.Name = "lblEveryHalf";
-            this.lblEveryHalf.Size = new System.Drawing.Size(141, 26);
+            this.lblEveryHalf.Size = new System.Drawing.Size(282, 50);
             this.lblEveryHalf.TabIndex = 16;
             this.lblEveryHalf.Text = "Grid";
             this.lblEveryHalf.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -463,9 +494,10 @@
             // lblEveryRow
             // 
             this.lblEveryRow.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryRow.Location = new System.Drawing.Point(6, 58);
+            this.lblEveryRow.Location = new System.Drawing.Point(12, 112);
+            this.lblEveryRow.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblEveryRow.Name = "lblEveryRow";
-            this.lblEveryRow.Size = new System.Drawing.Size(141, 26);
+            this.lblEveryRow.Size = new System.Drawing.Size(282, 50);
             this.lblEveryRow.TabIndex = 17;
             this.lblEveryRow.Text = "Rows";
             this.lblEveryRow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -474,18 +506,20 @@
             // 
             this.lblEveryHalfMore.BackColor = System.Drawing.Color.Transparent;
             this.lblEveryHalfMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryHalfMore.Location = new System.Drawing.Point(369, 12);
+            this.lblEveryHalfMore.Location = new System.Drawing.Point(738, 23);
+            this.lblEveryHalfMore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblEveryHalfMore.Name = "lblEveryHalfMore";
-            this.lblEveryHalfMore.Size = new System.Drawing.Size(25, 25);
+            this.lblEveryHalfMore.Size = new System.Drawing.Size(50, 48);
             this.lblEveryHalfMore.TabIndex = 56;
             this.lblEveryHalfMore.Text = ">";
             this.lblEveryHalfMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbEveryRow
             // 
-            this.tbEveryRow.Location = new System.Drawing.Point(264, 58);
+            this.tbEveryRow.Location = new System.Drawing.Point(528, 112);
+            this.tbEveryRow.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbEveryRow.Name = "tbEveryRow";
-            this.tbEveryRow.Size = new System.Drawing.Size(110, 45);
+            this.tbEveryRow.Size = new System.Drawing.Size(220, 90);
             this.tbEveryRow.TabIndex = 29;
             this.tbEveryRow.TabStop = false;
             // 
@@ -493,26 +527,29 @@
             // 
             this.lblEveryColumnLess.BackColor = System.Drawing.Color.Transparent;
             this.lblEveryColumnLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveryColumnLess.Location = new System.Drawing.Point(242, 103);
+            this.lblEveryColumnLess.Location = new System.Drawing.Point(484, 198);
+            this.lblEveryColumnLess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblEveryColumnLess.Name = "lblEveryColumnLess";
-            this.lblEveryColumnLess.Size = new System.Drawing.Size(25, 25);
+            this.lblEveryColumnLess.Size = new System.Drawing.Size(50, 48);
             this.lblEveryColumnLess.TabIndex = 59;
             this.lblEveryColumnLess.Text = "<";
             this.lblEveryColumnLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbEveryColumn
             // 
-            this.tbEveryColumn.Location = new System.Drawing.Point(263, 104);
+            this.tbEveryColumn.Location = new System.Drawing.Point(526, 200);
+            this.tbEveryColumn.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbEveryColumn.Name = "tbEveryColumn";
-            this.tbEveryColumn.Size = new System.Drawing.Size(110, 45);
+            this.tbEveryColumn.Size = new System.Drawing.Size(220, 90);
             this.tbEveryColumn.TabIndex = 30;
             this.tbEveryColumn.TabStop = false;
             // 
             // tbEveryHalf
             // 
-            this.tbEveryHalf.Location = new System.Drawing.Point(265, 12);
+            this.tbEveryHalf.Location = new System.Drawing.Point(530, 23);
+            this.tbEveryHalf.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbEveryHalf.Name = "tbEveryHalf";
-            this.tbEveryHalf.Size = new System.Drawing.Size(110, 45);
+            this.tbEveryHalf.Size = new System.Drawing.Size(220, 90);
             this.tbEveryHalf.TabIndex = 28;
             this.tbEveryHalf.TabStop = false;
             // 
@@ -561,18 +598,21 @@
             this.boxScanBottom.Controls.Add(this.svalHesitateTime);
             this.boxScanBottom.Controls.Add(this.svalTabScanTime);
             this.boxScanBottom.Controls.Add(this.lblAcceptTime);
-            this.boxScanBottom.Location = new System.Drawing.Point(34, 304);
+            this.boxScanBottom.Location = new System.Drawing.Point(68, 585);
+            this.boxScanBottom.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.boxScanBottom.Name = "boxScanBottom";
-            this.boxScanBottom.Size = new System.Drawing.Size(474, 287);
+            this.boxScanBottom.Size = new System.Drawing.Size(946, 550);
             this.boxScanBottom.TabIndex = 136;
+            this.boxScanBottom.Paint += new System.Windows.Forms.PaintEventHandler(this.boxScanBottom_Paint);
             // 
             // ltbWordListHesitateLess
             // 
             this.ltbWordListHesitateLess.BackColor = System.Drawing.Color.Transparent;
             this.ltbWordListHesitateLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbWordListHesitateLess.Location = new System.Drawing.Point(242, 152);
+            this.ltbWordListHesitateLess.Location = new System.Drawing.Point(484, 292);
+            this.ltbWordListHesitateLess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbWordListHesitateLess.Name = "ltbWordListHesitateLess";
-            this.ltbWordListHesitateLess.Size = new System.Drawing.Size(25, 25);
+            this.ltbWordListHesitateLess.Size = new System.Drawing.Size(50, 48);
             this.ltbWordListHesitateLess.TabIndex = 87;
             this.ltbWordListHesitateLess.Text = "<";
             this.ltbWordListHesitateLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -580,9 +620,10 @@
             // smaxWordListHesitateTime
             // 
             this.smaxWordListHesitateTime.AutoSize = true;
-            this.smaxWordListHesitateTime.Location = new System.Drawing.Point(371, 175);
+            this.smaxWordListHesitateTime.Location = new System.Drawing.Point(742, 337);
+            this.smaxWordListHesitateTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.smaxWordListHesitateTime.Name = "smaxWordListHesitateTime";
-            this.smaxWordListHesitateTime.Size = new System.Drawing.Size(19, 13);
+            this.smaxWordListHesitateTime.Size = new System.Drawing.Size(36, 25);
             this.smaxWordListHesitateTime.TabIndex = 84;
             this.smaxWordListHesitateTime.Text = "10";
             this.smaxWordListHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -591,27 +632,30 @@
             // 
             this.ltbWordListHesitateMore.BackColor = System.Drawing.Color.Transparent;
             this.ltbWordListHesitateMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbWordListHesitateMore.Location = new System.Drawing.Point(367, 150);
+            this.ltbWordListHesitateMore.Location = new System.Drawing.Point(734, 288);
+            this.ltbWordListHesitateMore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbWordListHesitateMore.Name = "ltbWordListHesitateMore";
-            this.ltbWordListHesitateMore.Size = new System.Drawing.Size(25, 25);
+            this.ltbWordListHesitateMore.Size = new System.Drawing.Size(50, 48);
             this.ltbWordListHesitateMore.TabIndex = 88;
             this.ltbWordListHesitateMore.Text = ">";
             this.ltbWordListHesitateMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbWordListHesitateTime
             // 
-            this.tbWordListHesitateTime.Location = new System.Drawing.Point(263, 153);
+            this.tbWordListHesitateTime.Location = new System.Drawing.Point(526, 294);
+            this.tbWordListHesitateTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbWordListHesitateTime.Name = "tbWordListHesitateTime";
-            this.tbWordListHesitateTime.Size = new System.Drawing.Size(110, 45);
+            this.tbWordListHesitateTime.Size = new System.Drawing.Size(220, 90);
             this.tbWordListHesitateTime.TabIndex = 85;
             this.tbWordListHesitateTime.TabStop = false;
             // 
             // lblWordListHesitateTime
             // 
             this.lblWordListHesitateTime.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWordListHesitateTime.Location = new System.Drawing.Point(5, 152);
+            this.lblWordListHesitateTime.Location = new System.Drawing.Point(10, 292);
+            this.lblWordListHesitateTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblWordListHesitateTime.Name = "lblWordListHesitateTime";
-            this.lblWordListHesitateTime.Size = new System.Drawing.Size(224, 26);
+            this.lblWordListHesitateTime.Size = new System.Drawing.Size(448, 50);
             this.lblWordListHesitateTime.TabIndex = 82;
             this.lblWordListHesitateTime.Text = "WordList Pause";
             this.lblWordListHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -619,9 +663,10 @@
             // sminWordListHesitateTime
             // 
             this.sminWordListHesitateTime.AutoSize = true;
-            this.sminWordListHesitateTime.Location = new System.Drawing.Point(245, 177);
+            this.sminWordListHesitateTime.Location = new System.Drawing.Point(490, 340);
+            this.sminWordListHesitateTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.sminWordListHesitateTime.Name = "sminWordListHesitateTime";
-            this.sminWordListHesitateTime.Size = new System.Drawing.Size(13, 13);
+            this.sminWordListHesitateTime.Size = new System.Drawing.Size(24, 25);
             this.sminWordListHesitateTime.TabIndex = 83;
             this.sminWordListHesitateTime.Text = "0";
             this.sminWordListHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -629,10 +674,11 @@
             // svalWordListHesitateTime
             // 
             this.svalWordListHesitateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalWordListHesitateTime.Location = new System.Drawing.Point(399, 153);
+            this.svalWordListHesitateTime.Location = new System.Drawing.Point(798, 294);
+            this.svalWordListHesitateTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.svalWordListHesitateTime.Name = "svalWordListHesitateTime";
             this.svalWordListHesitateTime.ReadOnly = true;
-            this.svalWordListHesitateTime.Size = new System.Drawing.Size(55, 20);
+            this.svalWordListHesitateTime.Size = new System.Drawing.Size(106, 32);
             this.svalWordListHesitateTime.TabIndex = 86;
             this.svalWordListHesitateTime.TabStop = false;
             // 
@@ -640,9 +686,10 @@
             // 
             this.ltbFirstRepeatLess.BackColor = System.Drawing.Color.Transparent;
             this.ltbFirstRepeatLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbFirstRepeatLess.Location = new System.Drawing.Point(241, 236);
+            this.ltbFirstRepeatLess.Location = new System.Drawing.Point(482, 454);
+            this.ltbFirstRepeatLess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbFirstRepeatLess.Name = "ltbFirstRepeatLess";
-            this.ltbFirstRepeatLess.Size = new System.Drawing.Size(25, 25);
+            this.ltbFirstRepeatLess.Size = new System.Drawing.Size(50, 48);
             this.ltbFirstRepeatLess.TabIndex = 80;
             this.ltbFirstRepeatLess.Text = "<";
             this.ltbFirstRepeatLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -651,9 +698,10 @@
             // 
             this.ltbFirstRepeatMore.BackColor = System.Drawing.Color.Transparent;
             this.ltbFirstRepeatMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbFirstRepeatMore.Location = new System.Drawing.Point(366, 237);
+            this.ltbFirstRepeatMore.Location = new System.Drawing.Point(732, 456);
+            this.ltbFirstRepeatMore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbFirstRepeatMore.Name = "ltbFirstRepeatMore";
-            this.ltbFirstRepeatMore.Size = new System.Drawing.Size(25, 25);
+            this.ltbFirstRepeatMore.Size = new System.Drawing.Size(50, 48);
             this.ltbFirstRepeatMore.TabIndex = 81;
             this.ltbFirstRepeatMore.Text = ">";
             this.ltbFirstRepeatMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -661,27 +709,30 @@
             // smaxFirstRepeatTime
             // 
             this.smaxFirstRepeatTime.AutoSize = true;
-            this.smaxFirstRepeatTime.Location = new System.Drawing.Point(371, 260);
+            this.smaxFirstRepeatTime.Location = new System.Drawing.Point(742, 500);
+            this.smaxFirstRepeatTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.smaxFirstRepeatTime.Name = "smaxFirstRepeatTime";
-            this.smaxFirstRepeatTime.Size = new System.Drawing.Size(19, 13);
+            this.smaxFirstRepeatTime.Size = new System.Drawing.Size(36, 25);
             this.smaxFirstRepeatTime.TabIndex = 78;
             this.smaxFirstRepeatTime.Text = "10";
             this.smaxFirstRepeatTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbFirstRepeatTime
             // 
-            this.tbFirstRepeatTime.Location = new System.Drawing.Point(262, 240);
+            this.tbFirstRepeatTime.Location = new System.Drawing.Point(524, 462);
+            this.tbFirstRepeatTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbFirstRepeatTime.Name = "tbFirstRepeatTime";
-            this.tbFirstRepeatTime.Size = new System.Drawing.Size(110, 45);
+            this.tbFirstRepeatTime.Size = new System.Drawing.Size(220, 90);
             this.tbFirstRepeatTime.TabIndex = 77;
             this.tbFirstRepeatTime.TabStop = false;
             // 
             // lblFirstRepeatTime
             // 
             this.lblFirstRepeatTime.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFirstRepeatTime.Location = new System.Drawing.Point(5, 236);
+            this.lblFirstRepeatTime.Location = new System.Drawing.Point(10, 454);
+            this.lblFirstRepeatTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblFirstRepeatTime.Name = "lblFirstRepeatTime";
-            this.lblFirstRepeatTime.Size = new System.Drawing.Size(187, 26);
+            this.lblFirstRepeatTime.Size = new System.Drawing.Size(374, 50);
             this.lblFirstRepeatTime.TabIndex = 75;
             this.lblFirstRepeatTime.Text = "First Repeat Time";
             this.lblFirstRepeatTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -689,9 +740,10 @@
             // sminFirstRepeatTime
             // 
             this.sminFirstRepeatTime.AutoSize = true;
-            this.sminFirstRepeatTime.Location = new System.Drawing.Point(244, 260);
+            this.sminFirstRepeatTime.Location = new System.Drawing.Point(488, 500);
+            this.sminFirstRepeatTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.sminFirstRepeatTime.Name = "sminFirstRepeatTime";
-            this.sminFirstRepeatTime.Size = new System.Drawing.Size(13, 13);
+            this.sminFirstRepeatTime.Size = new System.Drawing.Size(24, 25);
             this.sminFirstRepeatTime.TabIndex = 76;
             this.sminFirstRepeatTime.Text = "0";
             this.sminFirstRepeatTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -699,10 +751,11 @@
             // svalFirstRepeatTime
             // 
             this.svalFirstRepeatTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalFirstRepeatTime.Location = new System.Drawing.Point(398, 239);
+            this.svalFirstRepeatTime.Location = new System.Drawing.Point(796, 460);
+            this.svalFirstRepeatTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.svalFirstRepeatTime.Name = "svalFirstRepeatTime";
             this.svalFirstRepeatTime.ReadOnly = true;
-            this.svalFirstRepeatTime.Size = new System.Drawing.Size(55, 20);
+            this.svalFirstRepeatTime.Size = new System.Drawing.Size(106, 32);
             this.svalFirstRepeatTime.TabIndex = 79;
             this.svalFirstRepeatTime.TabStop = false;
             // 
@@ -710,9 +763,10 @@
             // 
             this.ltbAcceptTimeMore.BackColor = System.Drawing.Color.Transparent;
             this.ltbAcceptTimeMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbAcceptTimeMore.Location = new System.Drawing.Point(365, 16);
+            this.ltbAcceptTimeMore.Location = new System.Drawing.Point(730, 31);
+            this.ltbAcceptTimeMore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbAcceptTimeMore.Name = "ltbAcceptTimeMore";
-            this.ltbAcceptTimeMore.Size = new System.Drawing.Size(25, 25);
+            this.ltbAcceptTimeMore.Size = new System.Drawing.Size(50, 48);
             this.ltbAcceptTimeMore.TabIndex = 62;
             this.ltbAcceptTimeMore.Text = ">";
             this.ltbAcceptTimeMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -721,9 +775,10 @@
             // 
             this.ltbTabScanLess.BackColor = System.Drawing.Color.Transparent;
             this.ltbTabScanLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbTabScanLess.Location = new System.Drawing.Point(241, 195);
+            this.ltbTabScanLess.Location = new System.Drawing.Point(482, 375);
+            this.ltbTabScanLess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbTabScanLess.Name = "ltbTabScanLess";
-            this.ltbTabScanLess.Size = new System.Drawing.Size(25, 25);
+            this.ltbTabScanLess.Size = new System.Drawing.Size(50, 48);
             this.ltbTabScanLess.TabIndex = 73;
             this.ltbTabScanLess.Text = "<";
             this.ltbTabScanLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -732,9 +787,10 @@
             // 
             this.ltbTabScanMore.BackColor = System.Drawing.Color.Transparent;
             this.ltbTabScanMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbTabScanMore.Location = new System.Drawing.Point(366, 196);
+            this.ltbTabScanMore.Location = new System.Drawing.Point(732, 377);
+            this.ltbTabScanMore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbTabScanMore.Name = "ltbTabScanMore";
-            this.ltbTabScanMore.Size = new System.Drawing.Size(25, 25);
+            this.ltbTabScanMore.Size = new System.Drawing.Size(50, 48);
             this.ltbTabScanMore.TabIndex = 74;
             this.ltbTabScanMore.Text = ">";
             this.ltbTabScanMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -742,9 +798,10 @@
             // smaxTabScanTime
             // 
             this.smaxTabScanTime.AutoSize = true;
-            this.smaxTabScanTime.Location = new System.Drawing.Point(371, 219);
+            this.smaxTabScanTime.Location = new System.Drawing.Point(742, 421);
+            this.smaxTabScanTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.smaxTabScanTime.Name = "smaxTabScanTime";
-            this.smaxTabScanTime.Size = new System.Drawing.Size(19, 13);
+            this.smaxTabScanTime.Size = new System.Drawing.Size(36, 25);
             this.smaxTabScanTime.TabIndex = 39;
             this.smaxTabScanTime.Text = "10";
             this.smaxTabScanTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -753,9 +810,10 @@
             // 
             this.ltbHesitateLess.BackColor = System.Drawing.Color.Transparent;
             this.ltbHesitateLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbHesitateLess.Location = new System.Drawing.Point(242, 107);
+            this.ltbHesitateLess.Location = new System.Drawing.Point(484, 206);
+            this.ltbHesitateLess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbHesitateLess.Name = "ltbHesitateLess";
-            this.ltbHesitateLess.Size = new System.Drawing.Size(25, 25);
+            this.ltbHesitateLess.Size = new System.Drawing.Size(50, 48);
             this.ltbHesitateLess.TabIndex = 69;
             this.ltbHesitateLess.Text = "<";
             this.ltbHesitateLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -764,9 +822,10 @@
             // 
             this.ltbSteppingLess.BackColor = System.Drawing.Color.Transparent;
             this.ltbSteppingLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbSteppingLess.Location = new System.Drawing.Point(241, 64);
+            this.ltbSteppingLess.Location = new System.Drawing.Point(482, 123);
+            this.ltbSteppingLess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbSteppingLess.Name = "ltbSteppingLess";
-            this.ltbSteppingLess.Size = new System.Drawing.Size(25, 25);
+            this.ltbSteppingLess.Size = new System.Drawing.Size(50, 48);
             this.ltbSteppingLess.TabIndex = 67;
             this.ltbSteppingLess.Text = "<";
             this.ltbSteppingLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -774,18 +833,20 @@
             // smaxHesitateTime
             // 
             this.smaxHesitateTime.AutoSize = true;
-            this.smaxHesitateTime.Location = new System.Drawing.Point(369, 131);
+            this.smaxHesitateTime.Location = new System.Drawing.Point(738, 252);
+            this.smaxHesitateTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.smaxHesitateTime.Name = "smaxHesitateTime";
-            this.smaxHesitateTime.Size = new System.Drawing.Size(19, 13);
+            this.smaxHesitateTime.Size = new System.Drawing.Size(36, 25);
             this.smaxHesitateTime.TabIndex = 35;
             this.smaxHesitateTime.Text = "10";
             this.smaxHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbTabScanTime
             // 
-            this.tbTabScanTime.Location = new System.Drawing.Point(262, 199);
+            this.tbTabScanTime.Location = new System.Drawing.Point(524, 383);
+            this.tbTabScanTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbTabScanTime.Name = "tbTabScanTime";
-            this.tbTabScanTime.Size = new System.Drawing.Size(110, 45);
+            this.tbTabScanTime.Size = new System.Drawing.Size(220, 90);
             this.tbTabScanTime.TabIndex = 39;
             this.tbTabScanTime.TabStop = false;
             // 
@@ -793,9 +854,10 @@
             // 
             this.ltbHesitateMore.BackColor = System.Drawing.Color.Transparent;
             this.ltbHesitateMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbHesitateMore.Location = new System.Drawing.Point(367, 105);
+            this.ltbHesitateMore.Location = new System.Drawing.Point(734, 202);
+            this.ltbHesitateMore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbHesitateMore.Name = "ltbHesitateMore";
-            this.ltbHesitateMore.Size = new System.Drawing.Size(25, 25);
+            this.ltbHesitateMore.Size = new System.Drawing.Size(50, 48);
             this.ltbHesitateMore.TabIndex = 70;
             this.ltbHesitateMore.Text = ">";
             this.ltbHesitateMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -803,19 +865,21 @@
             // lblTabScanTime
             // 
             this.lblTabScanTime.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTabScanTime.Location = new System.Drawing.Point(5, 195);
+            this.lblTabScanTime.Location = new System.Drawing.Point(10, 375);
+            this.lblTabScanTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblTabScanTime.Name = "lblTabScanTime";
-            this.lblTabScanTime.Size = new System.Drawing.Size(210, 26);
+            this.lblTabScanTime.Size = new System.Drawing.Size(420, 50);
             this.lblTabScanTime.TabIndex = 26;
-            this.lblTabScanTime.Text = "Menu / Dialog Scan";
+            this.lblTabScanTime.Text = "Menu / Scan dialogue";
             this.lblTabScanTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // smaxSteppingTime
             // 
             this.smaxSteppingTime.AutoSize = true;
-            this.smaxSteppingTime.Location = new System.Drawing.Point(369, 88);
+            this.smaxSteppingTime.Location = new System.Drawing.Point(738, 169);
+            this.smaxSteppingTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.smaxSteppingTime.Name = "smaxSteppingTime";
-            this.smaxSteppingTime.Size = new System.Drawing.Size(19, 13);
+            this.smaxSteppingTime.Size = new System.Drawing.Size(36, 25);
             this.smaxSteppingTime.TabIndex = 33;
             this.smaxSteppingTime.Text = "10";
             this.smaxSteppingTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -824,9 +888,10 @@
             // 
             this.ltbSteppingMore.BackColor = System.Drawing.Color.Transparent;
             this.ltbSteppingMore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbSteppingMore.Location = new System.Drawing.Point(364, 64);
+            this.ltbSteppingMore.Location = new System.Drawing.Point(728, 123);
+            this.ltbSteppingMore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbSteppingMore.Name = "ltbSteppingMore";
-            this.ltbSteppingMore.Size = new System.Drawing.Size(25, 25);
+            this.ltbSteppingMore.Size = new System.Drawing.Size(50, 48);
             this.ltbSteppingMore.TabIndex = 68;
             this.ltbSteppingMore.Text = ">";
             this.ltbSteppingMore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -835,27 +900,30 @@
             // 
             this.ltbAcceptTimeLess.BackColor = System.Drawing.Color.Transparent;
             this.ltbAcceptTimeLess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltbAcceptTimeLess.Location = new System.Drawing.Point(240, 17);
+            this.ltbAcceptTimeLess.Location = new System.Drawing.Point(480, 33);
+            this.ltbAcceptTimeLess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ltbAcceptTimeLess.Name = "ltbAcceptTimeLess";
-            this.ltbAcceptTimeLess.Size = new System.Drawing.Size(25, 25);
+            this.ltbAcceptTimeLess.Size = new System.Drawing.Size(50, 48);
             this.ltbAcceptTimeLess.TabIndex = 61;
             this.ltbAcceptTimeLess.Text = "<";
             this.ltbAcceptTimeLess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tbHesitateTime
             // 
-            this.tbHesitateTime.Location = new System.Drawing.Point(263, 108);
+            this.tbHesitateTime.Location = new System.Drawing.Point(526, 208);
+            this.tbHesitateTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbHesitateTime.Name = "tbHesitateTime";
-            this.tbHesitateTime.Size = new System.Drawing.Size(110, 45);
+            this.tbHesitateTime.Size = new System.Drawing.Size(220, 90);
             this.tbHesitateTime.TabIndex = 36;
             this.tbHesitateTime.TabStop = false;
             // 
             // smaxAcceptTime
             // 
             this.smaxAcceptTime.AutoSize = true;
-            this.smaxAcceptTime.Location = new System.Drawing.Point(370, 42);
+            this.smaxAcceptTime.Location = new System.Drawing.Point(740, 81);
+            this.smaxAcceptTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.smaxAcceptTime.Name = "smaxAcceptTime";
-            this.smaxAcceptTime.Size = new System.Drawing.Size(19, 13);
+            this.smaxAcceptTime.Size = new System.Drawing.Size(36, 25);
             this.smaxAcceptTime.TabIndex = 27;
             this.smaxAcceptTime.Text = "10";
             this.smaxAcceptTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -863,27 +931,30 @@
             // lblHesitateTime
             // 
             this.lblHesitateTime.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHesitateTime.Location = new System.Drawing.Point(6, 107);
+            this.lblHesitateTime.Location = new System.Drawing.Point(12, 206);
+            this.lblHesitateTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblHesitateTime.Name = "lblHesitateTime";
-            this.lblHesitateTime.Size = new System.Drawing.Size(166, 26);
+            this.lblHesitateTime.Size = new System.Drawing.Size(332, 50);
             this.lblHesitateTime.TabIndex = 24;
             this.lblHesitateTime.Text = "First Pause";
             this.lblHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tbSteppingTime
             // 
-            this.tbSteppingTime.Location = new System.Drawing.Point(260, 64);
+            this.tbSteppingTime.Location = new System.Drawing.Point(520, 123);
+            this.tbSteppingTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbSteppingTime.Name = "tbSteppingTime";
-            this.tbSteppingTime.Size = new System.Drawing.Size(110, 45);
+            this.tbSteppingTime.Size = new System.Drawing.Size(220, 90);
             this.tbSteppingTime.TabIndex = 35;
             this.tbSteppingTime.TabStop = false;
             // 
             // sminTabScanTime
             // 
             this.sminTabScanTime.AutoSize = true;
-            this.sminTabScanTime.Location = new System.Drawing.Point(244, 219);
+            this.sminTabScanTime.Location = new System.Drawing.Point(488, 421);
+            this.sminTabScanTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.sminTabScanTime.Name = "sminTabScanTime";
-            this.sminTabScanTime.Size = new System.Drawing.Size(13, 13);
+            this.sminTabScanTime.Size = new System.Drawing.Size(24, 25);
             this.sminTabScanTime.TabIndex = 38;
             this.sminTabScanTime.Text = "0";
             this.sminTabScanTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -891,9 +962,10 @@
             // lblSteppingTime
             // 
             this.lblSteppingTime.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSteppingTime.Location = new System.Drawing.Point(6, 61);
+            this.lblSteppingTime.Location = new System.Drawing.Point(12, 117);
+            this.lblSteppingTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblSteppingTime.Name = "lblSteppingTime";
-            this.lblSteppingTime.Size = new System.Drawing.Size(188, 26);
+            this.lblSteppingTime.Size = new System.Drawing.Size(376, 50);
             this.lblSteppingTime.TabIndex = 23;
             this.lblSteppingTime.Text = "Scan";
             this.lblSteppingTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -901,9 +973,10 @@
             // sminHesitateTime
             // 
             this.sminHesitateTime.AutoSize = true;
-            this.sminHesitateTime.Location = new System.Drawing.Point(245, 132);
+            this.sminHesitateTime.Location = new System.Drawing.Point(490, 254);
+            this.sminHesitateTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.sminHesitateTime.Name = "sminHesitateTime";
-            this.sminHesitateTime.Size = new System.Drawing.Size(13, 13);
+            this.sminHesitateTime.Size = new System.Drawing.Size(24, 25);
             this.sminHesitateTime.TabIndex = 34;
             this.sminHesitateTime.Text = "0";
             this.sminHesitateTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -911,9 +984,10 @@
             // sminSteppingTime
             // 
             this.sminSteppingTime.AutoSize = true;
-            this.sminSteppingTime.Location = new System.Drawing.Point(244, 88);
+            this.sminSteppingTime.Location = new System.Drawing.Point(488, 169);
+            this.sminSteppingTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.sminSteppingTime.Name = "sminSteppingTime";
-            this.sminSteppingTime.Size = new System.Drawing.Size(13, 13);
+            this.sminSteppingTime.Size = new System.Drawing.Size(24, 25);
             this.sminSteppingTime.TabIndex = 32;
             this.sminSteppingTime.Text = "0";
             this.sminSteppingTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -921,9 +995,10 @@
             // sminAcceptTime
             // 
             this.sminAcceptTime.AutoSize = true;
-            this.sminAcceptTime.Location = new System.Drawing.Point(243, 41);
+            this.sminAcceptTime.Location = new System.Drawing.Point(486, 79);
+            this.sminAcceptTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.sminAcceptTime.Name = "sminAcceptTime";
-            this.sminAcceptTime.Size = new System.Drawing.Size(13, 13);
+            this.sminAcceptTime.Size = new System.Drawing.Size(24, 25);
             this.sminAcceptTime.TabIndex = 26;
             this.sminAcceptTime.Text = "0";
             this.sminAcceptTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -931,57 +1006,63 @@
             // svalAcceptTime
             // 
             this.svalAcceptTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalAcceptTime.Location = new System.Drawing.Point(396, 17);
+            this.svalAcceptTime.Location = new System.Drawing.Point(792, 33);
+            this.svalAcceptTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.svalAcceptTime.Name = "svalAcceptTime";
             this.svalAcceptTime.ReadOnly = true;
-            this.svalAcceptTime.Size = new System.Drawing.Size(55, 20);
+            this.svalAcceptTime.Size = new System.Drawing.Size(106, 32);
             this.svalAcceptTime.TabIndex = 53;
             this.svalAcceptTime.TabStop = false;
             // 
             // tbAcceptTime
             // 
-            this.tbAcceptTime.Location = new System.Drawing.Point(261, 17);
+            this.tbAcceptTime.Location = new System.Drawing.Point(522, 33);
+            this.tbAcceptTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tbAcceptTime.Name = "tbAcceptTime";
-            this.tbAcceptTime.Size = new System.Drawing.Size(110, 45);
+            this.tbAcceptTime.Size = new System.Drawing.Size(220, 90);
             this.tbAcceptTime.TabIndex = 32;
             this.tbAcceptTime.TabStop = false;
             // 
             // svalSteppingTime
             // 
             this.svalSteppingTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalSteppingTime.Location = new System.Drawing.Point(396, 66);
+            this.svalSteppingTime.Location = new System.Drawing.Point(792, 127);
+            this.svalSteppingTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.svalSteppingTime.Name = "svalSteppingTime";
             this.svalSteppingTime.ReadOnly = true;
-            this.svalSteppingTime.Size = new System.Drawing.Size(55, 20);
+            this.svalSteppingTime.Size = new System.Drawing.Size(106, 32);
             this.svalSteppingTime.TabIndex = 46;
             this.svalSteppingTime.TabStop = false;
             // 
             // svalHesitateTime
             // 
             this.svalHesitateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalHesitateTime.Location = new System.Drawing.Point(399, 108);
+            this.svalHesitateTime.Location = new System.Drawing.Point(798, 208);
+            this.svalHesitateTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.svalHesitateTime.Name = "svalHesitateTime";
             this.svalHesitateTime.ReadOnly = true;
-            this.svalHesitateTime.Size = new System.Drawing.Size(55, 20);
+            this.svalHesitateTime.Size = new System.Drawing.Size(106, 32);
             this.svalHesitateTime.TabIndex = 47;
             this.svalHesitateTime.TabStop = false;
             // 
             // svalTabScanTime
             // 
             this.svalTabScanTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.svalTabScanTime.Location = new System.Drawing.Point(398, 198);
+            this.svalTabScanTime.Location = new System.Drawing.Point(796, 381);
+            this.svalTabScanTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.svalTabScanTime.Name = "svalTabScanTime";
             this.svalTabScanTime.ReadOnly = true;
-            this.svalTabScanTime.Size = new System.Drawing.Size(55, 20);
+            this.svalTabScanTime.Size = new System.Drawing.Size(106, 32);
             this.svalTabScanTime.TabIndex = 49;
             this.svalTabScanTime.TabStop = false;
             // 
             // lblAcceptTime
             // 
             this.lblAcceptTime.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAcceptTime.Location = new System.Drawing.Point(6, 17);
+            this.lblAcceptTime.Location = new System.Drawing.Point(12, 33);
+            this.lblAcceptTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblAcceptTime.Name = "lblAcceptTime";
-            this.lblAcceptTime.Size = new System.Drawing.Size(209, 26);
+            this.lblAcceptTime.Size = new System.Drawing.Size(418, 50);
             this.lblAcceptTime.TabIndex = 20;
             this.lblAcceptTime.Text = "Min. Actuation Hold";
             this.lblAcceptTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -989,28 +1070,31 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(24, 23);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(517, 730);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Size = new System.Drawing.Size(1034, 1404);
             this.groupBox1.TabIndex = 172;
             this.groupBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, -4);
+            this.label1.Location = new System.Drawing.Point(24, -8);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 24);
+            this.label1.Size = new System.Drawing.Size(348, 46);
             this.label1.TabIndex = 161;
-            this.label1.Text = "Scan Settings";
+            this.label1.Text = "Option de scan";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ScannerSettingsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(541, 754);
+            this.ClientSize = new System.Drawing.Size(1082, 1450);
             this.Controls.Add(this.lblRestoreDefaults);
             this.Controls.Add(this.lblScanTimes);
             this.Controls.Add(this.lblNumberofTimes);
@@ -1022,6 +1106,7 @@
             this.Controls.Add(this.boxScanBottom);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "ScannerSettingsForm";
             this.Text = "ACAT";
             this.boxScanTop.ResumeLayout(false);

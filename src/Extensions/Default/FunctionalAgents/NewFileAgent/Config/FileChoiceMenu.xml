@@ -12,10 +12,10 @@
     <WidgetAttribute name="ItemText1" label="&#x75;" value="@exitFileTypeMenu" fontsize="18" fontname="ACAT Icon" bold="&usebold;"/>
 
     <WidgetAttribute name="ItemIcon2" label="" value="@TextFile" fontsize="20" fontname="ACAT Alpha" bold="&usebold;"/>
-    <WidgetAttribute name="ItemText2" label="Text File" value="@TextFile" fontsize="18" fontname="&buttonFontName;" bold="&usebold;"/>
+    <WidgetAttribute name="ItemText2" label="Fichier texte" value="@TextFile" fontsize="18" fontname="&buttonFontName;" bold="&usebold;"/>
 
     <WidgetAttribute name="ItemIcon3" label="" value="@WordDoc" fontsize="20" fontname="ACAT Alpha" bold="&usebold;"/>
-    <WidgetAttribute name="ItemText3" label="Word Doc" value="@WordDoc" fontsize="18" fontname="&buttonFontName;" bold="&usebold;"/>
+    <WidgetAttribute name="ItemText3" label="Doc. Word" value="@WordDoc" fontsize="18" fontname="&buttonFontName;" bold="&usebold;"/>
   </WidgetAttributes>
 
   <Layout>

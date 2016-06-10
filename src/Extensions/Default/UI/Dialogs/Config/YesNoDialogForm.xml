@@ -2,9 +2,9 @@
 
 <ACAT>
   <WidgetAttributes>
-    <WidgetAttribute name="Button1" label="No" fontsize="18" value="@CmdNo" bold="false"/>
+    <WidgetAttribute name="Button1" label="Non" fontsize="18" value="@CmdNo" bold="false"/>
     <WidgetAttribute name="Button1Blank" label="" fontsize="18" value="" mouseClickActuate="false" bold="false"/>
-    <WidgetAttribute name="Button2" label="Yes" fontsize="18" bold="true" value="@CmdYes" />
+    <WidgetAttribute name="Button2" label="Oui" fontsize="18" bold="true" value="@CmdYes" />
     <WidgetAttribute name="Button2Blank" label="" fontsize="18" bold="false" value="" mouseClickActuate="false"/>
   </WidgetAttributes>
 

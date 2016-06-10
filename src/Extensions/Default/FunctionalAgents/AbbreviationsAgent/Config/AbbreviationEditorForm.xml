@@ -7,9 +7,9 @@
 <ACAT>
   <WidgetAttributes>
     <WidgetAttribute name="lblFinished" label="OK" value="valButtonFinished"  fontsize="14" />
-    <WidgetAttribute name="lblCancel" label="Cancel" value="valButtonCancel"  fontsize="14"  />
-    <WidgetAttribute name="lblWritten" label="Written" fontsize="14" value="valWritten"/>
-    <WidgetAttribute name="lblSpoken" label="Spoken" fontsize="14" value="valSpoken"/>
+    <WidgetAttribute name="lblCancel" label="Annuler" value="valButtonCancel"  fontsize="14"  />
+    <WidgetAttribute name="lblWritten" label="Ecriture" fontsize="14" value="valWritten"/>
+    <WidgetAttribute name="lblSpoken" label="Parler" fontsize="14" value="valSpoken"/>
     <WidgetAttribute name="pbTypeWritten" label="M" value="valCheckWritten" fontname="ACAT Icon" fontsize="32" bold="false"  />
     <WidgetAttribute name="pbTypeSpoken" label="M" value="valCheckSpoken" fontname="ACAT Icon" fontsize="32" bold="false"  />
   </WidgetAttributes>

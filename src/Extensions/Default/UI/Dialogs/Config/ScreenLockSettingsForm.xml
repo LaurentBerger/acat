@@ -3,7 +3,7 @@
 <ACAT>
 	<WidgetAttributes>
     <WidgetAttribute name="lblOK" label="OK" value="valButtonOK"  fontsize="14" bold="false"/>
-		<WidgetAttribute name="lblCancel" label="Cancel" value="valButtonCancel"  fontsize="14"  bold="false"/>
+		<WidgetAttribute name="lblCancel" label="Annuler" value="valButtonCancel"  fontsize="14"  bold="false"/>
     <WidgetAttribute name="lblPINCode" label="PIN Code" value="valLabelPINCode" fontsize="14"   bold="false"/>
     <WidgetAttribute name="lblMaxDigit" label="Range: 0   to  " fontsize="16" bold="false" value="valLabelMaxDigit" mouseClickActuate="false"/>
     <WidgetAttribute name="ltbMaxDigitLess" label="O" value="valButtonMaxDigitLess" fontname="ACAT Icon" fontsize="36"  bold="false" />
